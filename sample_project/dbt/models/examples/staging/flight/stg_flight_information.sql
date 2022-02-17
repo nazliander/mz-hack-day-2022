@@ -6,7 +6,8 @@ with light transformations on top of the source.
 */
 
 {{ config(
-    materialized='view'
+    materialized='view',
+    tags=['flight']
 ) }}
 
 
