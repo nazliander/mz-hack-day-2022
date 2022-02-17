@@ -1,5 +1,6 @@
 {{ config(
-    materialized ='materializedview'
+    materialized ='materializedview',
+    tags=['flight']
 ) }}
 
 

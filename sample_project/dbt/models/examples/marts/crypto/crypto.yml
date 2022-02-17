@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fct_crypto_sliding_window
+    description: Sliding window of a 20 minutes of data ingestion for crypto prices and marketcap
+
+  - name: marketcap_changes
+    description: The marketcap changes per cryptocurrency within 20 minutes
+
+  - name: volatile_cryptos
+    description: Most volatile 10 cryptos within 20 minutes

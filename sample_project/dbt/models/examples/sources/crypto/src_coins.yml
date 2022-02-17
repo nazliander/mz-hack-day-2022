@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: rc_coins
+    description: Raw data for coins
